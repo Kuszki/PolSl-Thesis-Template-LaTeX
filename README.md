@@ -2,7 +2,7 @@
 
 Niniejszy szablon zawiera formaty nagłówków, stronę tytułową, jak i propozycje spisu treści, podpisów pod rysunkami, wzory tabel itp., przeznaczone jako wzór przy formatowaniu pracy dyplomowej.
 
-Projekt wykorzystuje tylko i wyłącznie wolne oprogramowanie i zachęca użytkowników do stosowania go podczas codziennej pracy. Celem projektu jest również zachęcenie odbiorców do stosowania systemu składu `LaTeX` podczas tworzenia dokumentów, jako alternatywy dla klasycznych edytorów tekstu, które mimo pozornie łatwiejszej obsługi, nie oferują tak dużej prostoty, swobody i jakości sporządzania dokumentów. O ile próg wejścia w `LaTeX` jest dość wysoki, o tyle dotyczy to głównie tworzenia tego typu szablonu, a nie stosowania ich.
+Projekt wykorzystuje tylko i wyłącznie wolne oprogramowanie i zachęca użytkowników do stosowania go podczas codziennej pracy. Celem projektu jest również zachęcenie odbiorców do stosowania systemu składu `LaTeX` podczas tworzenia dokumentów, jako alternatywy dla klasycznych edytorów tekstu, które mimo pozornie łatwiejszej obsługi, nie oferują tak dużej prostoty, swobody i jakości sporządzania dokumentów. O ile próg wejścia w `LaTeX` jest dość wysoki, o tyle dotyczy to głównie tworzenia tego typu szablonów, a nie stosowania ich.
 
 **UWAGA** - nie jest to oficjalny szablon pracy dyplomowej. Na stronie [Politechniki Śląskiej](https://www.polsl.pl/) nie są dostępne uniwersalne i jednolite szablony, tym bardziej w formacie `LaTeX`. Wytyczne odnośnie sporządzania prac dyplomowych ustala [Zarządzenie nr 54/2022](https://lex.polsl.pl/423-lista/d/20505/5/), przy czym są one opisane w formularzu `Z4-PU12`. Formularz ten daje jednak bardzo dużą swobodę w formatowaniu pracy, gdzie to promotor lub prowadzący pracę określa wytyczne do jej przygotowania. Zaproponowany szablon zachowuje najistotniejsze zalecenia wymienione w omawianym dokumencie.
 
@@ -52,6 +52,8 @@ latexmk --shell-escape -output-directory=budowa -pdflua -f thesis.tex
 
 Niniejszy szablon może być również stosowany bezpośrednio w serwisie [`Overleaf`](https://www.overleaf.com/read/sgzmptyskmvn#9bd014). Należy jednak koniecznie zmienić stosowany kompilator z `pdfTeX` na `LuaTeX`. Zaleca się jednak, z uwagi na ochronę własności intelektualnej i zapobieganie analizowaniu dokumentu przez obce podmioty, instalację środowiska `LaTeX` na własnym komputerze.
 
+Skompilowany plik `PDF` powstały na bazie niniejszego szablonu można znaleźć [tutaj](https://github.com/Kuszki/PolSl-Thesis-Template-LaTeX/releases).
+
 ## Podstawowe opcje szablonu
 
 Przygotowując dokument w parametrach `\documentclass` stosować można wszystkie opcje, które są dostępne dla klasy `report`. Najważniejsze z punktu widzenia użytkownika to:
@@ -66,4 +68,4 @@ Opcja `openright` działa tylko równolegle z opcją `twoside`. Jej stosowanie n
 
 Niniejszy szablon dostępny jest na licencji `GNU LGPL v2.1`. Stosowanie, modyfikowanie i rozpowszechnianie niniejszego szablonu jest dozwolone w dowolnym celu, przy czym sam szablon traktowany jest jak zewnętrzna biblioteka.
 
-Plik `polsl_logo.pdf`, który znajduje się w folderze `obrazki`, jest własnością Politechniki Śląskiej, a jego stosowanie regulowane jest przepisami zawartymi w [Księdze Znaku](https://www.polsl.pl/siwps/logo-2/). Plik należy stosować tylko zgodnie z jego licencją i w warunkach, dla których jest to dozwolone.
+Plik `polsl_logo.png`, który znajduje się w folderze `obrazki`, jest własnością Politechniki Śląskiej, a jego stosowanie regulowane jest przepisami zawartymi w [Księdze Znaku](https://www.polsl.pl/siwps/logo-2/). Plik należy stosować tylko zgodnie z jego licencją i w warunkach, dla których jest to dozwolone.
