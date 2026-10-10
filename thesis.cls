@@ -109,6 +109,8 @@
 \renewcommand\bottomfraction{0.35}
 \renewcommand\textfraction{0.25}
 
+\renewcommand{\bibsetup}{\flushbottom}
+
 \AppendGraphicsExtensions{.tex,.TEX}
 
 \DefineBibliographyStrings{polish}{
@@ -129,6 +131,7 @@
 \setlength{\parskip}{12pt plus 5pt minus 2pt}
 \setlength{\floatsep}{16pt plus 3pt minus 3pt}
 \setlength{\intextsep}{16pt plus 3pt minus 3pt}
+\setlength{\bibitemsep}{6pt plus 2pt minus 2pt}
 \setlength{\textfloatsep}{16pt plus 3pt minus 3pt}
 \setlength{\abovecaptionskip}{10pt plus 2pt minus 1pt}
 \setlength{\belowcaptionskip}{0pt plus 2pt minus 0pt}
